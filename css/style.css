@@ -19,4 +19,22 @@ body{
 }
 #ul-navbar{
     list-style-type: none;
+    
 }
+header{
+    color: black;
+    font-weight: 300;
+    font-size: 2em;
+    padding-top: 5px;
+}
+@media(max-width: 500px) {
+    body {
+      flex-direction: row;
+    }
+    #main-doc{
+        width: 100%;
+    }
+    #navbar{
+    width: 100%;
+    }
+  }
